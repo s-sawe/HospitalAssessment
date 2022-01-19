@@ -8,7 +8,30 @@ form{
     padding: 20px;
     background-color: powderblue;
 }
+.navlinks{
 
+    list-style-type: none;
+    background-color: powderblue;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+
+nav li a:hover{
+    background-color: cornflowerblue;
+}
 
 .inputstyle{
     width: 75%;
@@ -25,9 +48,16 @@ form{
     background-color: black;
     color: white;
     padding: 5px 5px;
-    width: 20%;
+    width: 10%;
 }
 .img-container {
     text-align: center;
     display: block;
+}
+.img-btn{
+    float: right;
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
 }

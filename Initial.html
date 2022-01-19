@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="css/format.css">
 </head>
 <body>
+
+<nav>
+    <ul class="navlinks">
+        <li><a href="Initial.html">Home </a> </li>
+        <li><a href="Hospital.html">Details </a> </li>
+    </ul>
+</nav>
+
  <div class="img-container">
      <img src="images/mediheal.jpg" alt="Image" width="400" height="300">
  </div>
@@ -58,14 +66,23 @@
     </div>
 
     <div class="otherinputs">
-        <label>Any Other Info</label><br>
+    <label>Have You Ever Visited Our Facility?</label><br>
+    <input type="radio" value="yes">
+    <label>Yes</label>
+    <input type="radio" value="no">
+    <label>No</label>
+
+    </div>
+
+    <div class="otherinputs">
+        <label>Reason For Doctor's Appointment</label><br>
         <label>
             <textarea name="aoi"  cols="100" rows="10" placeholder="Write Something ..."></textarea>
         </label>
     </div>
 
     <div>
-        <input id="btn" type="submit" value="Submit">
+        <input id="btn" type="submit" value="Submit Form">
 
     </div>
 
