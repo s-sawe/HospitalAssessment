@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mediheal Hospital Form</title>
+    <link rel="stylesheet" href="css/format.css">
+</head>
+<body>
+ <div class="img-container">
+     <img src="images/mediheal.jpg" alt="Image" width="400" height="300">
+ </div>
+
+<h3 style="text-align: center">Fill Medical This Assessment Form</h3>
+
+<form action="#">
+    <div>
+        <label>First name</label> <br>
+        <input class="inputstyle" type="text" name="fname" placeholder="John">
+    </div>
+    <div>
+        <label>Second Name</label> <br>
+        <input class="inputstyle" type="text" name="sname" placeholder="Doe">
+    </div>
+
+    <div>
+        <label>Phone Number</label><br>
+        <input class="inputstyle" type="tel" name="pnumber" placeholder="076563738">
+    </div>
+
+    <div>
+        <label>Email Address</label><br>
+        <input class="inputstyle" type="email" name="email" placeholder="johndoe@example.com">
+    </div>
+
+    <div>
+        <label>Date of Birth</label><br>
+        <input class="inputstyle" type="date" name="dob">
+    </div>
+    <div>
+        <label>Location</label><br>
+        <select class="inputstyle" name="location" >
+            <option value="nairobi">Nairobi</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="eldoret">Eldoret</option>
+            <option value="nakuru">Nakuru</option>
+            <option value="mombasa">Mombasa</option>
+        </select>
+
+    </div>
+    <div class="otherinputs">
+        <label>Gender</label><br>
+        <input type="radio" value="female">
+        <label>Female</label>
+        <input type="radio" value="male">
+        <label>Male</label>
+        <input type="radio" value="other">
+        <label>Other</label>
+    </div>
+
+    <div class="otherinputs">
+        <label>Any Other Info</label><br>
+        <label>
+            <textarea name="aoi"  cols="100" rows="10" placeholder="Write Something ..."></textarea>
+        </label>
+    </div>
+
+    <div>
+        <input id="btn" type="submit" value="Submit">
+
+    </div>
+
+</form>
+
+</body>
+</html>
